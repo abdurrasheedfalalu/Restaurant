@@ -40,6 +40,10 @@ img {
     background: var(--color-danger);
 }
 
+.cart .window-scroll-cart {
+    background: var(--color-success);
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -81,21 +85,23 @@ nav .links {
 }
 
 .links .cart {
-    padding: 0.2rem 0.5rem;
+    padding: 0.8rem;
+    border: 1px solid var(--color-white);
     border-radius: 50%;
     color: var(--color-black);
     background: var(--color-white);
     position: relative;
+    font-size: 1rem;
 }
 
 .cart span {
     position: absolute;
     top: -5px;
-    left: 22px;
+    left: 30px;
     color: var(--color-white);
     padding: 0.2rem 0.3rem;
     border-radius: 50%;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     text-align: center;
     background: var(--color-danger);
 }
@@ -122,6 +128,7 @@ nav .links {
 .left {
     margin-top: 2rem;
     width: 90%;
+    position: relative;
 }
 
 .left p {
@@ -155,6 +162,11 @@ nav .links {
 
 .emoji{
     font-size: 3rem;
+    display: inline-block;
+    position: absolute;
+    top: 18rem;
+    left: -2rem;
+    transform: rotate(40deg);
 }
 
 .left .menu {
