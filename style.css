@@ -177,9 +177,10 @@ nav .links {
 
 .right {
     margin-top: 1.5rem;
+    margin-left: 3rem;
 }
 
-.right img {
+.right-image {
     width: 30rem;
     height: 30rem;
     border-radius: 50%;
