@@ -14,6 +14,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    user-select: none;
 }
 
 body {
@@ -180,10 +181,13 @@ nav .links {
     margin-left: 3rem;
 }
 
-.right-image {
+.image img{
     width: 30rem;
     height: 30rem;
+    border: 1px solid var(--color-white);
     border-radius: 50%;
+    box-shadow: 5px 5px 5px var(--color-light);
+    margin-bottom: 3rem;
 }
 
 .items__container {

@@ -23,9 +23,14 @@ async function getRandomFood () {
 
 
 function randomRightFood (randomData, random = false) {
-    const image = document.createElement("img")
-    image.classList.add("right-image")
-    image.src = [randomData.strMealThumb]
+    const div = document.createElement("div");
+    div.classList.add("image")
+    div.innerHTML = `
+        <img src="${randomData.strMealThumb}" alt="${randomData.strMeal}">
+    `
+    // image.classList.add("image")
+    // image.src = [randomData.strMealThumb]
+    // image.alt = "image"
 
-    rightImage.appendChild(image)
+    rightImage.appendChild(div)
 }
